@@ -1,4 +1,4 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme_bootstrap/Configuration/PageTS/tsconfig.txt">
-<INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_bootstrap_holidays/Configuration/PageTS/Library/" extensions="pagets">
-<INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_bootstrap_holidays/Configuration/BackendLayouts/" extensions="pagets">
-<INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_bootstrap_holidays/Configuration/Elements/PageTS/" extensions="pagets">
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_bootstrap_travel/Configuration/PageTS/Library/" extensions="pagets">
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_bootstrap_travel/Configuration/BackendLayouts/" extensions="pagets">
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_bootstrap_travel/Configuration/Elements/PageTS/" extensions="pagets">
