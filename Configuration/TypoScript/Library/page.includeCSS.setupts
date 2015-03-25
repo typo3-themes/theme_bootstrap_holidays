@@ -1,0 +1,5 @@
+page {
+	includeCSS {
+		theme = EXT:theme_bootstrap_travel/Resources/Private/Dyncss/import.less
+	}
+}

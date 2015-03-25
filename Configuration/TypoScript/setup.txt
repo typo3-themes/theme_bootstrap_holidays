@@ -2,4 +2,32 @@
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_bootstrap_travel/Configuration/Elements/TypoScript/" extensions="setupts">
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_bootstrap_travel/Configuration/TypoScript/Library/" extensions="setupts">
 
+##########################
+# Wraps für Contentelemente
+##########################
+page.bodyTagCObject.cObject = CASE
+page.bodyTagCObject.cObject {
+ key.field = layout
+    4 = LOAD_REGISTER
+    4.customlayout = green
+    5 = LOAD_REGISTER
+    5.customlayout = orange
+    6 = LOAD_REGISTER
+    6.customlayout = lightblue
+    7 = LOAD_REGISTER
+    7.customlayout = darkblue
+    8 = LOAD_REGISTER
+    8.customlayout = lightgrey
+    9 = LOAD_REGISTER
+    9.customlayout = darkgrey
+    10 = LOAD_REGISTER
+    10.customlayout = pink
+}
+
+
+page {
+    bodyTagCObject.wrap  >
+    bodyTagCObject.stdWrap.dataWrap = <body id="pid-|" class="language-{$themes.languages.current.isoCodeShort} color-{REGISTER:customlayout}" data-spy="scroll" data-target="{$themes.configuration.bootstrap.javascript.scrollspy.target}" data-offset="{$themes.configuration.bootstrap.javascript.scrollspy.offset}">
+    bodyTagCObject.stdWrap.insertData = 1
+}
 

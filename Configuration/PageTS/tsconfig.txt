@@ -2,3 +2,24 @@
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_bootstrap_travel/Configuration/PageTS/Library/" extensions="pagets">
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_bootstrap_travel/Configuration/BackendLayouts/" extensions="pagets">
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_bootstrap_travel/Configuration/Elements/PageTS/" extensions="pagets">
+
+
+TCEFORM.pages.layout.altLabels {
+    0 = default
+    1 = Hellblauer Rahmen 2
+    2 = Hellblauer Rahmen 3
+    3 = Hellblauer Rahmen 4
+}
+TCEFORM.pages.layout.removeItems = 1,2,3
+
+TCEFORM.pages.layout.addItems {
+    4 = green
+    5 = orange
+    6 = lightblue
+    7 = darkblue
+    8 = lightgrey
+    9 = darkgrey
+    10 = pink
+}
+
+
