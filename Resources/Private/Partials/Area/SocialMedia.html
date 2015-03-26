@@ -1,0 +1,16 @@
+{namespace theme=KayStrobach\Themes\ViewHelpers}
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en"
+     xmlns:f="http://typo3.org/ns/fluid/ViewHelpers">
+    <f:section name="Default">
+        <!-- theme_bootstrap: Partials/Area/Socialmedia.html [begin] -->
+            <div class="col-md-6">
+                <div class="menu-footer-wrapper">
+                    <f:cObject typoscriptObjectPath="lib.menu.footer" />
+                </div>
+                <div class="socialmedia-list-wrapper">
+                    <f:render partial="Socialmedia/List" section="Default" />
+                </div>
+            </div>
+        <!-- theme_bootstrap: Partials/Area/Socialmedia.html [end] -->
+    </f:section>
+</div>
