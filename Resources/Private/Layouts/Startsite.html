@@ -14,7 +14,7 @@
 				</button>
 			</div>
 			<div id="navbar-main" class="navbar-collapse collapse">
-
+                <f:cObject typoscriptObjectPath="lib.menu.top" />
 				<div class="menu-language-wrapper pull-right">
 					<theme:widget.languageMenu
 							availableLanguages="{theme:constant(constant: 'themes.languages.available')}"
@@ -32,6 +32,7 @@
 			</div>
 		</div>
 	</div>
+
     <div class="fullWidth">
         <section id="areaFeature" class="page-header">
             <div class="container">
@@ -40,6 +41,7 @@
             <f:cObject typoscriptObjectPath="lib.content.feature" />
         </section>
     </div>
+    <f:render partial="Area/SocialMedia" section="Default"/>
 	<div class="container">
 		<main id="areaMain" class="row">
 			<div id="menuBreadcrumbWrapper">
